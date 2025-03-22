@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdn-cf.ginx.tv/imgcdn/WtSOTLx7P1XPS50JZy1tucakLcUSZBJ3J_IPrn8i6qQ/rs:fill:0:0:1/g:ce/aHR0cHM6Ly93d3cuZ2lueC50di91cGxvYWRzL0FSQU1fMi5qcGc');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    height: 100vh; 
+}
+
+header {
+    background-color: rgba(16, 8, 124, 0.7); /* Cor de fundo com transparência */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.invitation-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    background-image:url('https://pbs.twimg.com/media/F93HxD7WAAM3muF.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 160px;
+    margin: 80px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+.event-details {
+    font-size: 1.1em;
+    margin-top: 15px;
+    color: #000000;
+}
+
+button {
+    width: 100%;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #16359b;
+}
+
+#declineButton button {
+    background-color: #a03129;
+}
+
+#declineButton button:hover {
+    background-color: #9b0f0f;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #000000;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    .invitation-card {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+}
